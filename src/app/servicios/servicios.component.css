@@ -1,0 +1,54 @@
+
+.knowledge__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    align-items: center;
+    padding:50px;
+
+}
+
+.knowledge__picture{
+    max-width: 700px;
+    margin: 3rem;
+}
+
+.knowledge__paragraph{
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.knowledge__img{
+    width: 100%;
+    display: block;
+    
+}
+
+.subtitle{
+    color:#1049a1;
+    font-size: 3rem;
+    margin-bottom: 25px;
+    margin: 3rem;
+    
+    
+}
+
+.about__paragraph{
+    line-height: 1.7;
+    font-size: 1.5rem;
+    margin: 3rem;
+    
+}
+
+
+li {
+	list-style: none;
+}
+
+li::before {
+	content: "o";
+	color:#11A657;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em
+}

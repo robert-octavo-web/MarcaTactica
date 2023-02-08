@@ -1,0 +1,12 @@
+.whatsapp{
+
+    position: fixed;
+    z-index: 999;
+    border-radius: 100%;
+    bottom: 29px;
+    right: 25px;
+}
+
+.boton{
+    width: 80px;
+}

@@ -1,0 +1,145 @@
+.testimonios{
+    display: flex;
+    background-color: #1049a1;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 15% 1fr;
+    width: 90%;
+    padding: 20px;
+    border-radius: 1em;
+    justify-content: center;
+  
+  }
+  
+  .nav__link--footer{
+    display: flex;
+    margin: 0;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+  } 
+
+  .titulo{
+    justify-content: center;
+  }
+
+  .container{
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding:  0px 60px 0px 60px;
+  }
+  
+  /* .testimonios{
+    display: flex;
+    background-color: #1049a1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 90%;
+    padding: 20px;
+    border-radius: 1em;
+  
+  } */
+  .titulo{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-size: 23pt;
+    text-align: center;
+    
+    
+  } 
+  
+  .testimonio_font{
+    font-style: italic;
+    font-size: 15pt;
+    line-height: 35px;
+    text-align: center;
+    color:white;
+    margin-bottom: 20px;
+  }
+  
+  
+  .testimonio_autor{
+    font-style: italic;
+    font-size: 14pt;
+    line-height: 7px;
+    text-align:center;
+    color: white;
+  }
+  
+  .testimonio_empresa{
+    font-style: italic;
+    font-size: 14pt;
+    line-height: 35px;
+    text-align:center;
+    color: white;
+  }
+  
+  
+  
+  .slider-frame {
+    width: 75%;
+    height: auto;
+    margin:40px auto 10px;
+    overflow: hidden;
+  }
+  
+  .slider-frame ul {
+      display: flex;
+      padding: 0;
+      width: 300%;
+      
+      animation: slide 15s infinite alternate ease-in-out;
+  }
+  
+  .slider-frame li {
+      width: 100%;
+      list-style: none;
+  } 
+  
+  p span {
+    font-size: 30pt;
+  }
+  
+  
+  @keyframes slide {
+      0% {margin-left: 0;}
+      30% {margin-left: 0;}
+      
+      35% {margin-left: -100%;}
+      65% {margin-left: -100%;}
+      
+      70% {margin-left: -200%;}
+      100% {margin-left: -200%;}
+  }
+  
+  @media (max-width: 800px) {
+    .testimonios{
+      grid-template-columns: 1fr;
+      grid-template-rows: max-content max-content;
+      align-items: center;
+      
+    }
+  
+    .titulo{
+      text-align: center;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .testimonio_empresa{
+      font-size: 15pt;
+    }
+    .testimonio_autor{
+      font-size: 15pt;
+    }
+  
+    .testimonio_font{
+      font-size: 15pt;
+      line-height: 30px;
+    }
+}

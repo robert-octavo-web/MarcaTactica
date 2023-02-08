@@ -1,0 +1,110 @@
+
+.knowledge__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    align-items: center;
+    padding:50px;
+
+}
+
+.subtitle{
+    color:#1049a1;
+    font-size: 3rem;
+    margin-bottom: 25px;
+    margin: 3rem;
+}
+
+.knowledge__paragraph{
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.knowledge__img{
+    width: 100%;
+    display: block;  
+}
+
+.knowledge__picture{
+    max-width: 700px;
+    margin: 3rem auto 0;
+    overflow: hidden;
+    animation: slide 15s infinite alternate ease-in-out;
+}
+
+.knowledge__picture ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+}
+
+.knowledge__picture li{
+    list-style: none;
+    width: 100%;
+}
+
+.knowledge__picture img{
+ width: 100%;
+}
+.about__paragraph{
+    line-height: 1.7;
+    font-size: 1.5rem;
+    margin: 3rem;
+    
+}
+
+
+
+.slider-frame {
+	width: 80%;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+@media (max-width: 800px) {
+
+    
+.knowledge__container{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    padding:50px;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+
+}
